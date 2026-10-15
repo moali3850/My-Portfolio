@@ -38,18 +38,15 @@ export default function About() {
         </div>
         <ul className="grid content-start gap-4">
           {highlights.map((h, i) => (
-            <Reveal
-              as="li"
-              key={h}
-              delay={i * 120}
-             
-            >
-              <div  className="
+            <Reveal as="li" key={h} delay={i * 120}>
+              <div
+                className="
               rounded-2xl border border-white/10 bg-card px-6 py-5 font-semibold
               transition duration-300 hover:-translate-y-0.5 hover:border-accent/40
-              " >
-              <span className="mr-3 text-accent text-2xl">•</span>
-              {h}
+              "
+              >
+                <span className="mr-3 text-accent text-2xl">•</span>
+                {h}
               </div>
             </Reveal>
           ))}
