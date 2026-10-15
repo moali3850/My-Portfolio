@@ -4,7 +4,7 @@ import DotsBackground from "../components/DotsBackground";
 import { site } from "../data/site";
 //
 
-const portrait = "/images/MyPhoto.png";
+const portrait = `${import.meta.env.BASE_URL}images/MyPhoto.png`;
 
 export default function Hero() {
   return (
