@@ -10,7 +10,7 @@ export const projects = [
     codeUrl: "https://github.com/moali3850/third-project-html-css-",
   },
   {
-    title: "Project Two (placeholder)",
+    title: "Project Two (Dashboard)",
     description:
       "Describe your role, the main features, and what you learned while building it.",
     tags: ["JavaScript", "HTML5", "CSS3"],
@@ -21,7 +21,7 @@ export const projects = [
   {
     title: "Project Three (To Do List React)",
     description:
-      "A modern and responsive To-Do List app built with React and Material UI. Easily manage daily tasks, track progress, and organize your workflow with a clean interface and smooth user experience.",
+      "A modern admin dashboard built with HTML and CSS, featuring statistics, projects, tasks, files, courses, plans, and user information. The project focuses on creating an organized interface with responsive layouts and clean, professional design.",
     tags: ["React", "Responsive Design", "Material UI"],
     image: "../public/images/ToDoList.png",
     liveUrl: "https://moali3850.github.io/Todo-List-React/",
