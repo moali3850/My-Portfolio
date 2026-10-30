@@ -11,6 +11,15 @@ export const projects = [
     codeUrl: "https://github.com/moali3850/third-project-html-css-",
   },
   {
+    title: "Gym Website (Iron Pulse)",
+    description:
+      "A modern and fully responsive gym website built with React and Tailwind CSS, featuring fitness programs, trainers, workout sections, and an attractive user interface. The project focuses on creating an engaging fitness experience with smooth animations, interactive elements, and responsive layouts.",
+    tags: ["React", "Tailwind CSS", "Responsive Design"],
+    image: `${import.meta.env.BASE_URL}images/IronPulse.png`,
+    liveUrl: "https://iron-pulse-beige.vercel.app/",
+    codeUrl: "https://github.com/moali3850/iron-pulse",
+  },
+  {
     title: "Project Two (Dashboard)",
     description:
       "Describe your role, the main features, and what you learned while building it.",
